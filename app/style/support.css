@@ -1,0 +1,122 @@
+.helpers-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Відстань між картками */
+    margin: 20px auto; /* Вирівнювання по центру */
+}
+
+.helpers-title{
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .helper-card {
+    display: flex;
+    flex-wrap: wrap; /* Адаптація для маленьких екранів */
+    justify-content: space-evenly;
+    gap: 20px; /* Простір між елементами */
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .helper-card:nth-child(odd){
+    flex-direction: row-reverse;
+  }
+  
+  .helper-img {
+    border-radius: 20px;
+    width: 400px!important;
+    height: auto!important; /* Щоб зберегти пропорції */
+  }
+
+
+  
+  .helper-card-info {
+    flex: 1; /* Розтягує текстову частину */
+    max-width: 500px; /* Обмежує ширину тексту */
+    word-wrap: break-word; /* Розрив довгих слів */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
+  
+  .helper-card-info h2 {
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  
+  .helper-card-info p {
+    margin: 20px 0;
+    color: rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    text-align: left;
+  }
+  
+  * {
+    outline: none; /* Забрав видимий outline для естетики */
+    box-sizing: border-box; /* Полегшує роботу з розмірами */
+  }
+  
+
+
+  .support-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .support-content {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 10px 0;
+  }
+  
+  .donate-btn {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .donate-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .support-image {
+    margin-top: 20px;
+  }
+  
+  .image {
+    border-radius: 10px;
+  }
+  
