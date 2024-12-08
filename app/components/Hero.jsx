@@ -1,6 +1,6 @@
 "use client";
 import "@/app/style/home.css";
-
+import Link from "next/link";
 import Symbol from "@/app/assets/symbol.svg"; // У разі помилок перевірте шляхи
 import Image from "next/image";
 import React, { useRef, useState } from "react";
@@ -33,9 +33,9 @@ const Hero = ({ imgTop, imgLeft, imgRight, title }) => {
                     <p className="logo">UKRAINE</p>
                 </div>
                 <nav className="nav">
-                    <a href="/" className="nav-link">Hoved</a>
-                    <a href="/war" className="nav-link">Om krig</a>
-                    <a href="/support" className="nav-link">Støtte</a>
+                    <Link href="/" className="nav-link">Hoved</Link>
+                    <Link href="/war" className="nav-link">Om krig</Link>
+                    <Link href="/support" className="nav-link">Støtte</Link>
                 </nav>
                 <button className="air-alarm" onClick={handleToggleAudio}>
                     {isPlaying ? "STOP LYD" : "LYT KRIG"}
@@ -50,7 +50,7 @@ const Hero = ({ imgTop, imgLeft, imgRight, title }) => {
                     <p className="hero-desc">
                         Dette websted blev oprettet for at sprede sandheden om krigen i Ukraine og for at hjælpe dem, der ønsker at støtte den.
                     </p>
-                    <a href="/support" className="btn-support">Støtte Ukraine</a>
+                    <Link href="/support" className="btn-support">Støtte Ukraine</Link>
                 </div>
                 <div className="heroImg">
                     <div className="heroImg-top">

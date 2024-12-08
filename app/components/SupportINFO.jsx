@@ -1,6 +1,9 @@
 import React from 'react';
 import Image from 'next/image'; // if you're using Next.js, else you can use <img> tag
 import UNITED from "@/app/assets/united-24.jpg"
+import Link from 'next/link';
+
+
 const SupportINFO = () => {
 /*   const handleDonateClick = () => {
     // Handle the button click (e.g., navigate to donation page)
@@ -15,9 +18,9 @@ const SupportINFO = () => {
           Your donation can make a real difference in helping Ukraine during these
           challenging times. Click the button below to show your support.
         </p>
-        <a className="donate-btn" href="https://u24.gov.ua/" type="_blank">
+        <Link className="donate-btn" href="https://u24.gov.ua/">
           Donate Now
-        </a>
+        </Link>
       </div>
       <div className="support-image">
         <Image
