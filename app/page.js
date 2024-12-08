@@ -1,4 +1,5 @@
 import "@/app/style/home.css"
+import "@/app/style/support.css"
 import Hero from "@/app/components/Hero";
 import Day from "./components/Days";
 import SupportINFO from "./components/SupportINFO";

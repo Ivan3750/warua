@@ -13,13 +13,13 @@ const SupportINFO = () => {
   return (
     <div className="support-container">
       <div className="support-content">
-        <h2>Support Ukraine</h2>
+        <h2>Støtte til Ukraine</h2>
         <p>
-          Your donation can make a real difference in helping Ukraine during these
-          challenging times. Click the button below to show your support.
+        Din donation kan virkelig hjælpe Ukraine i disse
+        vanskelige tider. Klik på knappen nedenfor for at vise din støtte.
         </p>
         <Link className="donate-btn" href="https://u24.gov.ua/">
-          Donate Now
+          Donate Nu
         </Link>
       </div>
       <div className="support-image">

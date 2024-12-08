@@ -68,6 +68,7 @@
   
   * {
     outline: none; /* Забрав видимий outline для естетики */
+    font-family: Inter;
     box-sizing: border-box; /* Полегшує роботу з розмірами */
   }
   
@@ -83,33 +84,46 @@
   }
   
   .support-content {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
   }
   
   h2 {
     font-size: 2rem;
     color: #333;
+    font-family: Inter;
+
   }
   
   p {
     font-size: 1.2rem;
     color: #666;
     margin: 10px 0;
+    font-family: Inter;
+
   }
   
   .donate-btn {
+    width: 200px;
+    margin: 0px auto;
     padding: 12px 24px;
     font-size: 1.1rem;
     color: #fff;
-    background-color: #007bff;
+    background-color: rgb(0, 130, 209);
     border: none;
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s;
+    text-decoration: none;
+    font-family: Inter;
+font-size: 15px;
+font-weight: 400;
   }
   
   .donate-btn:hover {
-    background-color: #0056b3;
+    background-color: rgb(0, 110, 179);
   }
   
   .support-image {
